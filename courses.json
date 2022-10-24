@@ -1,0 +1,30 @@
+[
+    {
+      "id": "01",
+      "name": "Computer Fundamental"
+    },
+    {
+      "id": "02",
+      "name": "Programming Fundamental"
+    },
+    {
+      "id": "03",
+      "name": "Artificial Programming"
+    },
+    {
+      "id": "04",
+      "name": "Machine Learning"
+    },
+    {
+      "id": "05",
+      "name": "Image Processing"
+    },
+    {
+      "id": "06",
+      "name": "Computer Architecture"
+    },
+    {
+      "id": "08",
+      "name": "All Courses"
+    }
+  ]
