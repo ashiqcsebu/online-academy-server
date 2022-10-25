@@ -1,20 +1,20 @@
 const express = require('express')
 const app = express();
-// const cors = require('cors')
+ const cors = require('cors')
 const port = process.env.PORT || 5000 ;
 
-// app.use(cors())
+ app.use(cors())
 
 const courses =require('./data/courses.json');
  const courseInfo = require('./data/courseInfo.json');
 
 
 app.get('/courses', (req, res)=>{
-   res.send(courseInfo);
+   res.send(courses);
  });
 
 app.get('/course-categories', (req, res)=>{
-    res.send(courses);
+    res.send(coursesInfo);
 });
 
 app.get('/course-info/:id' , (req , res)=>{
