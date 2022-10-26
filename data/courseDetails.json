@@ -4,7 +4,7 @@
     
     "category_id": "01",
     "rating": { "number": 4.5, "badge": "Excellent" },
-    "total_price": 990,
+    "total_price": 999,
     "title": "Computer Fundamental",
     "course_teacher": {
       "name": "Mostafizur Rahman"
