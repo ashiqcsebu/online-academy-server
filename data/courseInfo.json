@@ -2,13 +2,11 @@
   {
     "_id": "101",
     "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+      "check_price": 19
     },
     "field_id": "01",
    
-    "price": 120,
+    "price": 19,
     "title": "Computer Fundamental",
     "author": {
       "name": "Mostafizur Rahman",
@@ -20,13 +18,11 @@
   },
   {
     "_id": "102",
-    "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+    "others_info": { 
+      "check_price": 9
     },
     "field_id": "02",
-    "price": 120,
+    "price": 9,
     "title": "Graphics Design",
     "author": {
       "name": "Motiur Rahman",
@@ -39,12 +35,10 @@
   {
     "_id": "103",
     "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+      "check_price": 14
     },
     "field_id": "03",
-    "price": 120,
+    "price": 14,
     "title": "Artificial Intellegence",
     "author": {
       "name": "Masudur Rahman",
@@ -57,12 +51,11 @@
   {
     "_id": "104",
     "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+      "point1": "Ml",
+      "check_price": 19
     },
     "field_id": "04",
-    "price": 120,
+    "price": 19,
     "title": "Machine Learning",
     "author": {
       "name": "Rahat Hossain",
@@ -75,12 +68,11 @@
   {
     "_id": "105",
     "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+      "point1": "Image Processing",
+      "check_price": 29
     },
     "field_id": "05",
-    "price": 120,
+    "price": 29,
     "title": "Digital Image Processing",
     "author": {
       "name": "Mohammad Faisal",
@@ -93,12 +85,11 @@
   {
     "_id": "106",
     "others_info": {
-      "point1": "Deep",
-      "point2": "Feature",
-      "check_price": 20
+      "point1": "programming",
+      "check_price": 19
     },
     "field_id": "06",
-    "price": 120,
+    "price": 19,
     "title": "Programming Fundamental",
     "author": {
       "name": "Ruhul Amin",

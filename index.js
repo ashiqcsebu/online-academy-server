@@ -5,9 +5,9 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-const researchField = require('./data/research-field.json');
-const research = require('./data/research.json');
-const checkout = require('./data/research.json');
+const researchField = require('./data/course.json');
+const research = require('./data/courseInfo.json');
+const checkout = require('./data/courseInfo.json');
 
 app.get('/', (req, res) => {
     res.send('Learning api running');
