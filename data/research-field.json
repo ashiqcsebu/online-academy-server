@@ -1,0 +1,40 @@
+[
+  {
+    "id": "01",
+    "name": "Computer Fundamental",
+    "reads": 4200,
+    "image": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg"
+  },
+  {
+    "id": "02",
+    "name": "Graphics Design",
+    "reads": 4200,
+    "image": "https://res.cloudinary.com/hamstech/images/f_auto,q_auto/v1637134439/Hamstech%20App/Title-Image-4_80465274aebb5/Title-Image-4_80465274aebb5.jpg?_i=AA"
+  },
+  {
+    "id": "03",
+    "name": "Artificial Intellegence",
+    "reads": 4200,
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Advantages_and_Disadvantages_of_artificial_intelligence.jpg"
+
+  },
+  {
+    "id": "04",
+    "name": "Machine Learning",
+    "reads": 4200,
+    "image": "https://www.techfunnel.com/wp-content/uploads/2021/12/machine-learning-trends.png"
+  },
+  {
+    "id": "05",
+    "name": "Digital Image Processing",
+    "reads": 4200,
+    "image": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg"
+  },
+  {
+    "id": "06",
+    "name": "Programming Fundamental",
+    "reads": 4200,
+    "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2388074/settings_images/Jqq1mwFQdK2plLyrit89_file.jpg"
+  }
+  
+]

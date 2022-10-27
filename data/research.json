@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "101",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "01",
+   
+    "price": 120,
+    "title": "Computer Fundamental",
+    "author": {
+      "name": "Mostafizur Rahman",
+      "university": "Assistant Professor,University Of Dhaka",
+      "img": "https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.jpg?w=2000"
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Computer fundamentals tutorial provides basic and advanced concepts of Bootstrap. Our Computer fundamentals is designed for beginners and professionals.Computer is an electronic device i.e. used to work with information or compute. It is derived from the Latin word computare which means to calculate.Our Computer fundamentals tutorial includes all topics of Computer fundamentals such as input devices, output devices, memory, CPU, motherboard, computer network, virus, software, hardware etc."
+  },
+  {
+    "_id": "102",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "02",
+    "price": 120,
+    "title": "Graphics Design",
+    "author": {
+      "name": "Motiur Rahman",
+      "university": "Assistant Professor,University Of Dhaka",
+      "img": "https://mensline.org.au/wp-content/uploads/2020/05/Excuses-header-1024x683.jpg"
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Graphic design is a craft where professionals create visual content to communicate messages. By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users’ specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience. Some of the most notable modern-day graphic design examples stem from advancements in technology. Here’s a glimpse of some of these types of graphic design Website design involves creating engaging and intuitive web pages for users. This includes overall layout, color scheme and navigation.User experience (UX) design is focused on ensuring a website or application is easy and satisfying to use. These designers emphasize value, usability, adoptability and desirability. Motion graphics design—or animation—brings visual elements to life through special effects, TV shows, video games and movies."
+  },
+  {
+    "_id": "103",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "03",
+    "price": 120,
+    "title": "Artificial Intellegence",
+    "author": {
+      "name": "Masudur Rahman",
+      "university": "Lecturer,University Of Dhaka",
+      "img": "https://media.istockphoto.com/photos/smiling-indian-man-looking-at-camera-picture-id1270067126?k=20&m=1270067126&s=612x612&w=0&h=ZMo10u07vCX6EWJbVp27c7jnnXM2z-VXLd-4maGePqc="
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.The ideal characteristic of artificial intelligence is its ability to rationalize and take actions that have the best chance of achieving a specific goal. A subset of artificial intelligence is machine learning (ML), which refers to the concept that computer programs can automatically learn from and adapt to new data without being assisted by humans. Deep learning techniques enable this automatic learning through the absorption of huge amounts of unstructured data such as text, images, or video."
+  },
+  {
+    "_id": "104",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "04",
+    "price": 120,
+    "title": "Machine Learning",
+    "author": {
+      "name": "Rahat Hossain",
+      "university": "Lecturer,University Of Barisal",
+      "img": "https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=20&m=1179420343&s=612x612&w=0&h=G2UGMVSzAXGAQs3pFZpvWlHNRAzwPIWIVtSOxZHsEuc="
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence. Machine learning algorithms build a model based on sample data, known as training data, in order to make predictions or decisions without being explicitly programmed to do so.[2] Machine learning algorithms are used in a wide variety of applications, such as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to develop conventional algorithms to perform the needed tasks.A subset of machine learning is closely related to computational statistics, which focuses on making predictions using computers, but not all machine learning is statistical learning. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a related field of study, focusing on exploratory data analysis through unsupervised learning.[5][6] Some implementations of machine learning use data and neural networks in a way that mimics the working of a biological brain. In its application across business problems, machine learning is also referred to as predictive analytics."
+  },
+  {
+    "_id": "105",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "05",
+    "price": 120,
+    "title": "Digital Image Processing",
+    "author": {
+      "name": "Mohammad Faisal",
+      "university": "Lecturer,University Of Rajshahi",
+      "img": "https://cdn.ceoworld.biz/wp-content/uploads/2019/09/Business-Suits-For-Men.jpg"
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Digital image processing is the use of a digital computer to process digital images through an algorithm.[1][2] As a subcategory or field of digital signal processing, digital image processing has many advantages over analog image processing. It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build-up of noise and distortion during processing. Since images are defined over two dimensions (perhaps more) digital image processing may be modeled in the form of multidimensional systems. The generation and development of digital image processing are mainly affected by three factors: first, the development of computers; second, the development of mathematics (especially the creation and improvement of discrete mathematics theory); third, the demand for a wide range of applications in environment, agriculture, military, industry and medical science has increased."
+  },
+  {
+    "_id": "106",
+    "others_info": {
+      "point1": "Deep",
+      "point2": "Feature",
+      "check_price": 20
+    },
+    "field_id": "06",
+    "price": 120,
+    "title": "Programming Fundamental",
+    "author": {
+      "name": "Ruhul Amin",
+      "university": "Associate Professor,University Of Dhaka",
+      "img": "https://i2-prod.mirror.co.uk/incoming/article11953857.ece/ALTERNATES/s615/PROD-Lets-talk-business.jpg"
+    },
+    "image_url": "https://o7services.com/wp-content/uploads/2020/12/Basic-Computer-Fundamentals.jpg",
+    "details": "Computer programming (often shortened to programming) is a process that leads from an original formulation of a computing problem to executable computer programs. Programming involves activities such as analysis; developing understanding; generating algorithms; verifying the requirements of algorithms, including their correctness and resources consumption; and implementation (commonly referred to as coding) of algorithms in a target programming language.[1]"
+  }
+ 
+]

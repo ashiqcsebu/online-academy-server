@@ -1,40 +1,112 @@
-const express = require('express')
+const express = require('express');
 const app = express();
-const cors = require('cors')
-const port = process.env.PORT || 5000 ;
+const cors = require('cors');
+const port = process.env.PORT || 5000;
 
-app.use(cors())
+app.use(cors());
 
-const categories =require('./data/courses.json');
-const news = require('./data/courseDetails.json');
+const researchField = require('./data/research-field.json');
+const research = require('./data/research.json');
+const checkout = require('./data/research.json');
 
-app.get('/', (req, res)=>{
-    res.send('new api running');
+app.get('/', (req, res) => {
+    res.send('Learning api running');
 });
 
-app.get('/news', (req, res)=>{
-    res.send(news);
+app.get('/research-field', (req, res) => {
+    res.send(researchField);
 });
 
-app.get('/news-categories', (req, res)=>{
-    res.send(categories);
-});
-
-app.get('/category/:id' , (req , res)=>{
+app.get('/field/:id', (req, res) => {
     const id = req.params.id;
-  
-    const category_news = news.filter(n => n.category_id === id);
-    res.send(category_news);
+    if (id === '08') {
+        res.send(research);
+    }
+    else{
+        const field_research =  research.filter(r => r.field_id === id);
+        res.send(field_research);
+    }
 });
 
-app.get('/news/:id' , (req , res)=>{
+app.get('/checkout', (req, res) =>{
+    res.send(checkout);
+});
 
-    const id = req.params.id ;
-    const selectedNews = news.find(n => n._id === id);
-    res.send(selectedNews);
+app.get('/checkout/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedCheckout = checkout.find(c => c._id === id);
+    res.send(selectedCheckout)
+
+});
+
+app.get('/research', (req, res) =>{
+    res.send(research);
+});
+
+app.get('/research/:id', (req, res) => {
+    const id = req.params.id;
+    const selectedResearch = research.find(r => r._id === id);
+    res.send(selectedResearch)
+
 });
 
 app.listen(port, () => {
-   console.log('Server running on port', port) ;
-});
+    console.log('Learning Server running on port', port);
+})
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const express = require('express');
+// const app = express();
+// const cors = require('cors');
+// const port = process.env.PORT || 5000;
+
+// app.use(cors());
+
+// const researchField = require('./data/research-field.json');
+// const research = require('./data/research.json');
+
+// app.get('/', (req, res) => {
+//     res.send('Learning api running');
+// });
+
+// app.get('/research-field', (req, res) => {
+//     res.send(researchField);
+// });
+
+// app.get('/field/:id', (req, res) => {
+//     const id = req.params.id;
+//         const field_research =  research.filter(r => r.field_id === id);
+//         res.send(field_research);
+    
+// });
+
+// app.get('/research', (req, res) =>{
+//     res.send(research);
+// });
+
+// app.get('/research/:id', (req, res) => {
+//     const id = req.params.id;
+//     const selectedResearch = research.find(r => r._id === id);
+//     res.send(selectedResearch)
+
+// });
+
+// app.listen(port, () => {
+//     console.log('Learning Server running on port', port);
+// })
